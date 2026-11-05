@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "BookStore",
+    "slug": "bookstore-online",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.example.bookstore" },
+    "web": { "bundler": "metro" }
+  }
+}

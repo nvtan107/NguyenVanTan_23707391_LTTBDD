@@ -1,0 +1,382 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Văn học",
+      "emoji": "📖"
+    },
+    {
+      "id": 2,
+      "name": "Kinh tế",
+      "emoji": "💼"
+    },
+    {
+      "id": 3,
+      "name": "Lập trình",
+      "emoji": "💻"
+    },
+    {
+      "id": 4,
+      "name": "Thiếu nhi",
+      "emoji": "🧸"
+    },
+    {
+      "id": 5,
+      "name": "Khoa học",
+      "emoji": "🔬"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "price": 65000,
+      "categoryId": 4,
+      "stock": 12,
+      "emoji": "🦗",
+      "color": "#16A34A",
+      "description": "Tác phẩm kinh điển về chú dế mèn dũng cảm và hành trình khám phá thế giới."
+    },
+    {
+      "id": 2,
+      "title": "Nhà Giả Kim",
+      "author": "Paulo Coelho",
+      "price": 79000,
+      "categoryId": 1,
+      "stock": 8,
+      "emoji": "🏜️",
+      "color": "#F59E0B",
+      "description": "Hành trình đi tìm kho báu của cậu bé chăn cừu Santiago."
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 389000,
+      "categoryId": 3,
+      "stock": 5,
+      "emoji": "🧹",
+      "color": "#3B3FD8",
+      "description": "Nghệ thuật viết mã sạch, dễ đọc và dễ bảo trì."
+    },
+    {
+      "id": 4,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "price": 86000,
+      "categoryId": 2,
+      "stock": 20,
+      "emoji": "🤝",
+      "color": "#0B1F5C",
+      "description": "Những nguyên tắc ứng xử giúp bạn thành công trong giao tiếp."
+    },
+    {
+      "id": 5,
+      "title": "Lão Hạc",
+      "author": "Nam Cao",
+      "price": 45000,
+      "categoryId": 1,
+      "stock": 3,
+      "emoji": "🐕",
+      "color": "#64748B",
+      "description": "Truyện ngắn hiện thực xúc động về số phận người nông dân."
+    },
+    {
+      "id": 6,
+      "title": "TypeScript Handbook",
+      "author": "Anders H.",
+      "price": 250000,
+      "categoryId": 3,
+      "stock": 7,
+      "emoji": "🔷",
+      "color": "#00B8D9",
+      "description": "Cẩm nang TypeScript từ cơ bản đến nâng cao."
+    },
+    {
+      "id": 7,
+      "title": "Sapiens: Lược Sử Loài Người",
+      "author": "Yuval Noah Harari",
+      "price": 189000,
+      "categoryId": 5,
+      "stock": 10,
+      "emoji": "🧬",
+      "color": "#7C3AED",
+      "description": "Câu chuyện về sự hình thành và phát triển của loài người."
+    },
+    {
+      "id": 8,
+      "title": "Cha Giàu Cha Nghèo",
+      "author": "Robert Kiyosaki",
+      "price": 99000,
+      "categoryId": 2,
+      "stock": 15,
+      "emoji": "💰",
+      "color": "#0F766E",
+      "description": "Bài học tài chính cá nhân từ hai người cha có hai tư duy khác nhau."
+    },
+    {
+      "id": 9,
+      "title": "React Native in Action",
+      "author": "Nader Dabit",
+      "price": 320000,
+      "categoryId": 3,
+      "stock": 4,
+      "emoji": "📱",
+      "color": "#2563EB",
+      "description": "Xây dựng ứng dụng di động đa nền tảng với React Native."
+    },
+    {
+      "id": 10,
+      "title": "Totto-chan Bên Cửa Sổ",
+      "author": "Tetsuko Kuroyanagi",
+      "price": 72000,
+      "categoryId": 4,
+      "stock": 18,
+      "emoji": "🚃",
+      "color": "#EA580C",
+      "description": "Câu chuyện cảm động về cô bé Totto-chan và ngôi trường Tomoe."
+    },
+    {
+      "id": 11,
+      "title": "Tuổi Trẻ Đáng Giá Bao Nhiêu",
+      "author": "Rosie Nguyễn",
+      "price": 68000,
+      "categoryId": 1,
+      "stock": 1,
+      "emoji": "🎒",
+      "color": "#DB2777",
+      "description": "Những chia sẻ truyền cảm hứng dành cho người trẻ."
+    },
+    {
+      "id": 12,
+      "title": "Vũ Trụ Trong Vỏ Hạt Dẻ",
+      "author": "Stephen Hawking",
+      "price": 135000,
+      "categoryId": 5,
+      "stock": 6,
+      "emoji": "🌌",
+      "color": "#1E3A8A",
+      "description": "Hành trình khám phá vũ trụ cùng nhà vật lý lỗi lạc."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Học viên Demo",
+      "email": "demo@bookstore.vn",
+      "password": "123456",
+      "phone": "0901234567"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Văn A",
+      "email": "a@bookstore.vn",
+      "password": "123456",
+      "phone": "0912345678"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "bookId": 1,
+          "title": "Dế Mèn Phiêu Lưu Ký",
+          "price": 65000,
+          "quantity": 2
+        },
+        {
+          "bookId": 4,
+          "title": "Đắc Nhân Tâm",
+          "price": 86000,
+          "quantity": 1
+        }
+      ],
+      "total": 216000,
+      "address": {
+        "name": "Học viên Demo",
+        "phone": "0901234567",
+        "address": "25 Lê Lợi, Quận 1, TP.HCM"
+      },
+      "paymentMethod": "cod",
+      "status": "completed",
+      "createdAt": "2026-09-02T09:15:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "items": [
+        {
+          "bookId": 3,
+          "title": "Clean Code",
+          "price": 389000,
+          "quantity": 1
+        }
+      ],
+      "total": 389000,
+      "address": {
+        "name": "Học viên Demo",
+        "phone": "0901234567",
+        "address": "25 Lê Lợi, Quận 1, TP.HCM"
+      },
+      "paymentMethod": "bank",
+      "status": "shipping",
+      "createdAt": "2026-10-15T14:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "items": [
+        {
+          "bookId": 7,
+          "title": "Sapiens: Lược Sử Loài Người",
+          "price": 189000,
+          "quantity": 1
+        },
+        {
+          "bookId": 2,
+          "title": "Nhà Giả Kim",
+          "price": 79000,
+          "quantity": 1
+        }
+      ],
+      "total": 268000,
+      "address": {
+        "name": "Học viên Demo",
+        "phone": "0901234567",
+        "address": "25 Lê Lợi, Quận 1, TP.HCM"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-10-22T08:05:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 2,
+      "userName": "Nguyễn Văn A",
+      "rating": 5,
+      "comment": "Sách hay, tuổi thơ ùa về!",
+      "createdAt": "2026-09-10T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Học viên Demo",
+      "rating": 4,
+      "comment": "Giấy đẹp, giao nhanh.",
+      "createdAt": "2026-09-12T11:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "bookId": 2,
+      "userId": 2,
+      "userName": "Nguyễn Văn A",
+      "rating": 5,
+      "comment": "Đọc một mạch hết luôn.",
+      "createdAt": "2026-09-18T19:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "bookId": 3,
+      "userId": 2,
+      "userName": "Nguyễn Văn A",
+      "rating": 5,
+      "comment": "Bắt buộc phải đọc với dev.",
+      "createdAt": "2026-09-20T08:40:00.000Z"
+    },
+    {
+      "id": 5,
+      "bookId": 3,
+      "userId": 1,
+      "userName": "Học viên Demo",
+      "rating": 4,
+      "comment": "Hơi dài nhưng rất đáng.",
+      "createdAt": "2026-10-01T21:10:00.000Z"
+    },
+    {
+      "id": 6,
+      "bookId": 4,
+      "userId": 2,
+      "userName": "Nguyễn Văn A",
+      "rating": 3,
+      "comment": "Nội dung ổn, hơi cũ.",
+      "createdAt": "2026-10-03T09:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "bookId": 7,
+      "userId": 2,
+      "userName": "Nguyễn Văn A",
+      "rating": 5,
+      "comment": "Mở mang đầu óc.",
+      "createdAt": "2026-10-05T16:45:00.000Z"
+    },
+    {
+      "id": 8,
+      "bookId": 6,
+      "userId": 1,
+      "userName": "Học viên Demo",
+      "rating": 4,
+      "comment": "Ví dụ rõ ràng, dễ theo dõi.",
+      "createdAt": "2026-10-08T13:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Đơn hàng #2 đang giao",
+      "body": "Đơn hàng Clean Code của bạn đang trên đường giao đến.",
+      "createdAt": "2026-10-23T07:30:00.000Z",
+      "read": false,
+      "target": {
+        "screen": "Orders"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Sách mới: Sapiens",
+      "body": "Sapiens: Lược Sử Loài Người vừa có hàng trở lại.",
+      "createdAt": "2026-10-22T10:00:00.000Z",
+      "read": false,
+      "target": {
+        "screen": "BookDetail",
+        "bookId": 7
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Ưu đãi cuối tuần",
+      "body": "Dùng mã SALE10 để giảm 10% cho mọi đơn hàng.",
+      "createdAt": "2026-10-20T08:00:00.000Z",
+      "read": true
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "Đơn hàng #1 đã hoàn tất",
+      "body": "Cảm ơn bạn đã mua sắm! Hãy để lại đánh giá nhé.",
+      "createdAt": "2026-09-05T15:00:00.000Z",
+      "read": true,
+      "target": {
+        "screen": "Orders"
+      }
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "Chào mừng đến BookStore",
+      "body": "Khám phá hàng trăm đầu sách hay ngay hôm nay.",
+      "createdAt": "2026-09-01T09:00:00.000Z",
+      "read": true
+    }
+  ]
+}
