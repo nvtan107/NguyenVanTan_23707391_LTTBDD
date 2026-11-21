@@ -1,0 +1,23 @@
+import type { Book } from "../types";
+
+// Dữ liệu cho sẵn trong đề: một mảng, không gọi API.
+export const BOOKS: Book[] = [
+  { id: "1", title: "Clean Code", author: "Robert C. Martin", price: 389000, rating: 9.1, category: "Lập trình", inStock: true, description: "Cuốn sách kinh điển về cách viết code sạch, dễ đọc và dễ bảo trì.", cover: "https://picsum.photos/seed/book1/300/450" },
+  { id: "2", title: "Dế Mèn Phiêu Lưu Ký", author: "Tô Hoài", price: 65000, rating: 8.7, category: "Thiếu nhi", inStock: true, description: "Cuộc phiêu lưu của chú dế mèn, tác phẩm quen thuộc của nhiều thế hệ.", cover: "https://picsum.photos/seed/book2/300/450" },
+  { id: "3", title: "Nhà Giả Kim", author: "Paulo Coelho", price: 79000, rating: 8.9, category: "Văn học", inStock: true, description: "Hành trình đi tìm kho báu của cậu bé chăn cừu Santiago.", cover: "https://picsum.photos/seed/book3/300/450" },
+  { id: "4", title: "Đắc Nhân Tâm", author: "Dale Carnegie", price: 86000, rating: 9.0, category: "Kinh tế", inStock: true, description: "Những nguyên tắc giao tiếp và ứng xử được đọc nhiều nhất thế giới.", cover: "https://picsum.photos/seed/book4/300/450" },
+  { id: "5", title: "React Native in Action", author: "Nader Dabit", price: 259000, rating: 8.2, category: "Lập trình", inStock: false, description: "Xây dựng ứng dụng di động bằng React Native từ cơ bản đến nâng cao.", cover: "https://picsum.photos/seed/book5/300/450" },
+  { id: "6", title: "Sapiens", author: "Yuval Noah Harari", price: 189000, rating: 9.2, category: "Khoa học", inStock: true, description: "Lược sử loài người từ thời nguyên thuỷ đến hiện đại.", cover: "https://picsum.photos/seed/book6/300/450" },
+  { id: "7", title: "Tôi Thấy Hoa Vàng Trên Cỏ Xanh", author: "Nguyễn Nhật Ánh", price: 95000, rating: 8.8, category: "Văn học", inStock: true, description: "Tuổi thơ ở một làng quê nghèo, nhẹ nhàng mà sâu lắng.", cover: "https://picsum.photos/seed/book7/300/450" },
+  { id: "8", title: "Atomic Habits", author: "James Clear", price: 159000, rating: 9.0, category: "Kinh tế", inStock: false, description: "Xây dựng thói quen tốt bằng những thay đổi rất nhỏ mỗi ngày.", cover: "https://picsum.photos/seed/book8/300/450" },
+  { id: "9", title: "Vũ Trụ Trong Vỏ Hạt Dẻ", author: "Stephen Hawking", price: 175000, rating: 8.6, category: "Khoa học", inStock: true, description: "Giải thích các ý tưởng vật lý lớn bằng ngôn ngữ dễ hiểu.", cover: "https://picsum.photos/seed/book9/300/450" },
+  { id: "10", title: "Truyện Kiều", author: "Nguyễn Du", price: 72000, rating: 8.5, category: "Văn học", inStock: true, description: "Kiệt tác thơ lục bát của văn học Việt Nam.", cover: "https://picsum.photos/seed/book10/300/450" },
+];
+
+// Giả lập việc tải dữ liệu: trả về mảng sau một khoảng trễ để thấy ActivityIndicator
+// và RefreshControl. Hàm này không truy cập mạng.
+export function loadBooks(delay = 700): Promise<Book[]> {
+  return new Promise((resolve) => setTimeout(() => resolve([...BOOKS]), delay));
+}
+
+export const getBookById = (id: string): Book | undefined => BOOKS.find((b) => b.id === id);
